@@ -7,7 +7,7 @@ public class TheFirst
 
     public TheFirst() {
     System.out.println("Enter any number to check if it is a prime number");
-    sc=new Scanner(System.in);
+    sc=new Scanner(2*System.in);
 
     isPrime(sc.nextInt());
     }
